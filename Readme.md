@@ -23,5 +23,7 @@ Ensure all steps are done once logged into the Pi. NOTE: It is assumed that you 
 
 * Copy Flask.service over: `sudo cp Flask.service /etc/systemd/system/Flask.service`
 
-* Enable/Restart: `sudo systemctl restart Flask.service`
+* Enable: `sudo systemctl enabled Flask.service`
+
+* Restart: `sudo systemctl restart Flask.service`
 
